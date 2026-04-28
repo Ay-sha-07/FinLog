@@ -118,7 +118,7 @@ $total_spent = $total_row['total'] ?? 0;
     <?php endif; ?>
     
     <?php if($error): ?>
-        <div class="error-msg">✕ <?= $ ?></div>
+        <div class="error-msg">✕ <?= $error ?></div>
     <?php endif; ?>
 
     <p class="section-label">Daily Management</p>
